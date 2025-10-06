@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  color: #2a32a5;
+}
+.container {
+  background: #00ff62;
+  border-radius: 0rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+h1 {
+  font-size: 3rem;
+  color: #05060a;
+}
+
+#newGameBtn {
+  background-color: #05060a;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#trials {
+  font-size: 2rem;
+  color: #05060a;
+  margin-bottom: 1rem;
+}
+
+#guessinput {
+  width: 22rem;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  border: #05060a;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+#guessinput:disabled {
+  background-color: white;
+  color: white;
+}
+
+#feedback {
+  font-size: 2rem;
+  margin: 0.8rem 0;
+  color: #05060a;
+  min-height: 2rem;
+}
+#guessBtn {
+  background-color: #05060a;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+#guessBtn:disabled {
+  background-color: #05060a;
+  cursor: not-allowed;
+}

@@ -1,6 +1,6 @@
 let randomNumber = Math.floor(Math.random() * 101);
 let trials = 10;
-let score = 0;
+// let score = 0;
 
 const feedback = document.getElementById("feedback");
 const trialsdisplay = document.getElementById("trials");
